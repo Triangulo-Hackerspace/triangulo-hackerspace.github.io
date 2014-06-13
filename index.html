@@ -10,7 +10,7 @@
       document.write(line.join('')+"\n");
       u ='*';
       for(j=n-i; j<n+i+1; ++j) {
-        t = (line[j-1] == line[j+1] ? '&nbsp;' : '*');
+        t = (line[j-1] == line[j+1] ? '.' : '*');
         line[j-1] = u;
         u = t;
       }
